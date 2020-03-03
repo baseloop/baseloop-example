@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "dom"
+    ],
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "module": "esnext"
+  },
+  "include": [
+    "src/client/index.ts",
+    "src/server/index.ts"
+  ],
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/node_modules/**",
+    "node_modules"
+  ]
+}
