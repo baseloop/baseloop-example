@@ -16,21 +16,11 @@ module.exports = {
     },
   },
   rules: {
-    /*'@typescript-eslint/array-type': ['error', 'array-simple'],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
-    '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/no-use-before-define': ['error', { functions: false }],
-    'import/order': [
-      'error',
-      {
-        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
-        'newlines-between': 'never',
-        alphabetize: {
-          order: 'asc',
-          caseInsensitive: true,
-        },
-      },
+    /*'@typescript-eslint/array-type': ['error', 'array-simple'],
     ],*/
   },
   settings: {

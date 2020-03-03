@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="fi">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Condensed:300,400&display=swap" rel="stylesheet" />
-        <title>Baseloop example</title>
-    </head>
-    <body>
-        <div data-app></div>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Roboto+Condensed:300,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Baseloop example</title>
+    <style>
+      html {
+        font-family: Roboto, sans-serif;
+      }
+      body {
+        padding: 96px;
+        margin: 0;
+      }
+      a {
+        color: dodgerblue;
+        text-decoration: underline;
+      }
+      li {
+        margin: 8px;
+      }
+      .result-container {
+        display: flex;
+      }
+      .result-container > div {
+        margin: 2rem;
+      }
+      label {
+        display: block;
+        margin-bottom: 4px;
+      }
+      input, select {
+        margin-bottom: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-app></div>
+  </body>
 </html>
